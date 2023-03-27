@@ -22,6 +22,7 @@
 .aside__image {
     width: 12rem;
     margin-bottom: 2rem;
+    margin-left: 2.2rem;
 }
 
 .contact__aside h2 {
@@ -81,7 +82,7 @@ input, textarea {
     width: 100%;
     padding: 1rem;
     background: var(--color-bg);
-    color: var(--color-white);
+    color: black;
 }
 
 .contact__form .btn {

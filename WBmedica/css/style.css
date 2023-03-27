@@ -316,9 +316,9 @@ header {
     /* box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5); */
 }
 
-section.team {
+/* section.team {
     padding: 3rem;
-}
+} */
 
 .about__achievements-container {
     display: grid;
