@@ -33,12 +33,8 @@ section.team {
 }
 
 .team__member img {
-    filter: saturate(0);
-}
-
-.team__member:hover img {
     filter: saturate(1);
-} 
+}
 
 .team__member-info * {
     text-align: center;
