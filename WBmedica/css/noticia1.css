@@ -67,6 +67,11 @@ section.team {
     text-align: center;
 }
 
+img.img_productoscomer {
+    height: 303px;
+    width: 407px;
+}
+
 /* =========== MEDIA QUERIES (TABLETS) =========== */
 
 @media screen and (max-width: 1024px){
@@ -122,6 +127,11 @@ section.team {
 /* =========== MEDIA QUERIES (PHONE) =========== */
 
 @media screen and (max-width: 600px){
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
     .achievements__cards {
         grid-template-columns: 1fr;
         gap: 0.7;
@@ -161,5 +171,9 @@ section.team {
     .team {
         background: var(--color-bg1);
         padding: 1.2rem;
+    }
+
+    img.img_productoscomer {
+        margin-left: 0px;
     }
 }
